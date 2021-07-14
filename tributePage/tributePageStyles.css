@@ -1,0 +1,59 @@
+:root {
+  --background-color: #f9f4ef;
+  --headline-color: #fffffe;
+  --text-color: #716040;
+  --highlight-color: #ff8906;
+  --secondary-color: #f25f4c;
+  --tertiary-color: #eaddcf;
+}
+
+main {
+  display: grid;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+header {
+  background-color: var(--tertiary-color);
+  width: 100%;
+  margin: 4em 0 4em 0;
+  text-align: center;
+  padding: 2em;
+
+}
+
+.title {
+  color: var(--headline-color);
+}
+
+section {
+  margin: auto;
+  max-width: 60%;
+}
+
+ul {
+  line-height: 1.2em;
+  text-align: left;
+}
+
+li {
+  color: var(--text-color);
+  margin-bottom: 1.3em;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  color: #716040;
+}
+
+hr {
+  max-width: 90%;
+  font-size: 4em;
+  color: #eaddcf;
+}

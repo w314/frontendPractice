@@ -1,0 +1,32 @@
+:root {
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+
+#home {
+	width: 40%;
+}
+
+#header-img {
+	width: 20%;
+}
+
+#nav-bar {
+	width: 60%;
+}
+
+#nav-bar ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.nav-link {
+	text-decoration: none;
+	padding-right: 2em;
+
+}
