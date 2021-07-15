@@ -11,11 +11,15 @@ header {
 #home {
 	width: 40%;
 	display: flex;
-
+	align-items: center;
+	font-family:  cursive;
+	font-size: 1.1em;
+	font-style:  italic;
 }
 
 #header-img {
 	width: 20%;
+	margin: 0 0.5em 0 0.2em;
 }
 
 #nav-bar {
@@ -30,6 +34,6 @@ header {
 
 .nav-link {
 	text-decoration: none;
-	padding-right: 2em;
-
+	padding-right: 1.5em;
+	color: black;
 }
